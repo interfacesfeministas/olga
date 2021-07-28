@@ -1,2 +1,2 @@
-# olga
-exploración digital del proyecto Interfaces Feministas
+# Olga
+exploración digital del proyecto Interfaces Feministas sobre el espacio doméstico

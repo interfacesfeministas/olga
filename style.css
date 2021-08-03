@@ -1,0 +1,262 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+  display: block;
+  position: relative;
+  background-color: #000000;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#enterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999999999999;
+    background-color: rgba(0,0,0,1);
+}
+
+#enterContainer p {
+  text-justify: center;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  color: rgba(210, 210, 210, 1);
+}
+
+#enterContainer h2 {
+  font-family: 'Dela Gothic One', serif;
+  color: #FFFFFF;
+}
+
+#parallax {
+
+}
+
+.bg-image {
+  content: "";
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url("fondo-cocina.png");
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+  background-position: top 25%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.navbar {
+  font-family: 'Dela Gothic One', sans-serif;
+  z-index: 10;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.container-main {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.container-fullheight {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.container-fullheight-2 {
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-enter {
+  background-color: transparent;
+  color: rgba(210, 0, 0, 1);
+  border-color: rgba(210, 0, 0, 1);
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-enter:hover {
+  background-color: rgba(210,0,0,1);
+  color: black;
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.habitacion {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Dela Gothic One', serif;
+  font-size: 90%;
+  color: white;
+}
+
+.scene {
+  position: relative;
+  width: 25%;
+  z-index: 99999999;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition-duration: 0.2s;
+  opacity: 1;
+}
+
+.scene:hover {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
+  opacity: 0.6;
+}
+
+.scene-name {
+  opacity: 0.01;
+  transition: 0.3s;
+  pointer-events: auto;
+}
+
+.scene-name:hover{
+  opacity: 1;
+}
+
+.scene-cocina {
+  margin: 0;
+  width: 45%;
+  bottom: 5%;
+}
+
+.scene-scale {
+  -webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+  transition: 0.5s ease-in-out;
+  pointer-events: auto;
+}
+
+.scene-scale:hover {
+  -webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	-o-transform: scale(1.03);
+	transform: scale(1.03);
+}
+
+.carousel-item {
+  height: 30vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 70px;
+  width: 70px;
+  outline: none;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+h1 {
+  font-family: 'Dela Gothic One', serif;
+  color: white;
+}
+
+h2 {
+  font-family: 'Dela Gothic One', serif;
+  font-size: 80%;
+  color: white;
+}
+
+h2-1 {
+  font-family: 'Dela Gothic One', serif;
+  font-size: 70%;
+  color: white;
+  opacity: 0.5;
+  transition-duration: 0.3s;
+}
+
+h2-1:hover {
+  opacity: 1;
+  color: rgba(210,0,0,1);
+}
+
+a:link {
+  text-decoration: none!important;
+  cursor: pointer;
+}
+
+h3 {
+  font-family: 'Dela Gothic One', serif;
+  color: white;
+}
+
+h4, h5 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+p {
+  line-height: 1.6;
+  text-justify: left;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+footer {
+  color: #FFB6C0;
+  padding-top:2rem;
+  font-size: 90%;
+}

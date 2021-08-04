@@ -188,8 +188,6 @@ img {
 	transform: scale(1.03);
 }
 
-.carousel 
-
 .carousel-item {
   height: 30vh;
   background: no-repeat center center scroll;
@@ -209,19 +207,27 @@ img {
   background-image: none;
 }
 
-h1 {
+div.container {
+  height: 100%;
+  width: 100vw;
+  padding: 1% 15%;
+  background-image: linear-gradient(black 250px, rgba(210,0,0,1));
+}
+
+h1, h2, h2-1, h3, h4 {
   font-family: 'Dela Gothic One', serif;
+}
+
+h1 {
   color: white;
 }
 
 h2 {
-  font-family: 'Dela Gothic One', serif;
   font-size: 80%;
   color: white;
 }
 
 h2-1 {
-  font-family: 'Dela Gothic One', serif;
   font-size: 70%;
   color: white;
   opacity: 0.5;
@@ -239,22 +245,49 @@ a:link {
 }
 
 h3 {
-  font-family: 'Dela Gothic One', serif;
+  color: rgba(210,0,0,1);
+  text-align: center;
+}
+
+h3 a {
+  color: rgba(210,0,0,1);
+}
+
+h3 a:hover {
   color: white;
+  opacity: 0.9;
 }
 
 h4, h5 {
   font-family: 'Karla', sans-serif;
+}
+
+h4 {
+  color: white;
+  font-size: 80%;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 1%;
+}
+
+h5 {
   font-weight: 300;
   color: white;
+  padding-top: 1%;
+}
+
+b {
+  font-weight: 900;
+  color: rgba(210,0,0,1);
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.5;
   text-justify: left;
   font-family: 'Karla', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: white;
+  padding-top: 2%;
 }
 
 footer {

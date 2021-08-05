@@ -14,12 +14,28 @@ html {
 body {
   height: 100%;
   width: 100%;
-  padding-top: 50px;
+  margin: 0;
   display: block;
   position: relative;
   background-color: #000000;
   background-size: cover;
   overflow: hidden;
+}
+
+body-2 {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  display: block;
+  position: relative;
+  background-color: #000000;
+  background-size: cover;
+  overflow: auto;
+}
+
+body-2::-webkit-scrollbar {
+  width: 0.5rem;
+  scrollbar-color: rgba(210, 0, 0, 1) rgba(210, 0, 0, 1);
 }
 
 #enterContainer {
@@ -36,16 +52,20 @@ body {
     background-color: rgba(0,0,0,1);
 }
 
-#enterContainer p {
+#enterContainer p-1 {
   text-justify: center;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
   color: rgba(210, 210, 210, 1);
+  padding: 3%;
 }
 
+
 #enterContainer h2 {
+  text-align: center;
   font-family: 'Dela Gothic One', serif;
-  color: #FFFFFF;
+  font-size: 120%;
+  color: rgba(210,0,0,1);
 }
 
 #parallax {
@@ -54,18 +74,15 @@ body {
 
 .bg-image {
   content: "";
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
+  height: 100%;
   position: absolute;
+  padding-top: 3%;
   left: 0;
   right: 0;
   z-index: -1;
-
-  display: block;
-  background-image: url("fondo-cocina.png");
   -webkit-filter: blur(1px);
   filter: blur(1px);
-  background-position: top 25%;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -90,14 +107,24 @@ img {
   height: 100%;
   width: 100%;
   position: absolute;
+  padding-top: 5%;
 }
 
 .container-fullheight-2 {
   height: 100vh;
   position: absolute;
+  padding-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.container-fullheight-3 {
+  position: absolute;
+  width: 100%;
+  padding: 1% 20%;
+  background-image: linear-gradient(black 200px, rgba(210,0,0,0.8) 500px);
+  background-attachment: fixed;
 }
 
 .button-enter {
@@ -207,13 +234,6 @@ img {
   background-image: none;
 }
 
-div.container {
-  height: 100%;
-  width: 100vw;
-  padding: 1% 15%;
-  background-image: linear-gradient(black 250px, rgba(210,0,0,1));
-}
-
 h1, h2, h2-1, h3, h4 {
   font-family: 'Dela Gothic One', serif;
 }
@@ -228,9 +248,9 @@ h2 {
 }
 
 h2-1 {
-  font-size: 70%;
+  font-size: 80%;
   color: white;
-  opacity: 0.5;
+  opacity: 0.9;
   transition-duration: 0.3s;
 }
 
@@ -264,7 +284,7 @@ h4, h5 {
 
 h4 {
   color: white;
-  font-size: 80%;
+  font-size: 90%;
   text-align: center;
   font-weight: 700;
   padding-top: 1%;
@@ -273,7 +293,7 @@ h4 {
 h5 {
   font-weight: 300;
   color: white;
-  padding-top: 1%;
+  padding-top: 5%;
 }
 
 b {
@@ -289,6 +309,7 @@ p {
   color: white;
   padding-top: 2%;
 }
+
 
 footer {
   color: #FFB6C0;

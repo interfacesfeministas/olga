@@ -54,18 +54,11 @@ body-2::-webkit-scrollbar {
 
 #enterContainer p-1 {
   text-align: center;
+  line-height: 1.6;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
   color: rgba(210, 210, 210, 1);
   padding: 3%;
-}
-
-
-#enterContainer h2 {
-  text-align: center;
-  font-family: 'Dela Gothic One', serif;
-  font-size: 120%;
-  color: rgba(210,0,0,1);
 }
 
 #parallax {
@@ -301,6 +294,12 @@ b {
   color: rgba(210,0,0,1);
 }
 
+i {
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(210,0,0,1);
+}
+
 p {
   line-height: 1.5;
   text-justify: left;
@@ -308,6 +307,7 @@ p {
   font-weight: 300;
   color: white;
   padding-top: 2%;
+  padding-bottom: 3%;
 }
 
 

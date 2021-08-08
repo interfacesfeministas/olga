@@ -53,7 +53,7 @@ body-2::-webkit-scrollbar {
 }
 
 #enterContainer p-1 {
-  text-justify: center;
+  text-align: center;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
   color: rgba(210, 210, 210, 1);
@@ -216,7 +216,7 @@ img {
 }
 
 .carousel-item {
-  height: 30vh;
+  height: 35vh;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;

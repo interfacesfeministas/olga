@@ -133,8 +133,6 @@ img {
 .button-enter:hover {
   background-color: rgba(210,0,0,1);
   color: black;
-  font-family: 'Karla', sans-serif;
-  font-weight: 500;
 }
 
 .cover {
@@ -227,6 +225,29 @@ img {
   background-image: none;
 }
 
+.button-form {
+  background-color: rgba(210,0,0,1);
+  color: white;
+  border-color: rgba(210,0,0,1);
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  justify-content: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+a .button-form{
+  background-color: rgba(210,0,0,1);
+  color: white;
+}
+
+.button-form:hover {
+  background-color: black;
+  color: rgba(210,0,0,1);
+  border-color: rgba(210,0,0,1);
+}
+
 h1, h2, h2-1, h3, h4 {
   font-family: 'Dela Gothic One', serif;
 }
@@ -294,6 +315,13 @@ b {
   color: rgba(210,0,0,1);
 }
 
+b-b {
+  font-family: 'Dela Gothic One', serif;
+  font-weight: 300;
+  color: white;
+  padding-bottom: 3%;
+}
+
 i {
   font-style: italic;
   font-weight: 400;
@@ -311,8 +339,12 @@ p {
 }
 
 
-footer {
-  color: #FFB6C0;
-  padding-top:2rem;
-  font-size: 90%;
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Karla', sans-serif;
+  font-weight: 300;
+  color: white;
+  padding-bottom: 2%;
 }

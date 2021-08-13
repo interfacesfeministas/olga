@@ -260,6 +260,7 @@ h1 {
 h2 {
   font-size: 80%;
   color: white;
+  padding-top: 5%;
 }
 
 h2-1 {
@@ -309,7 +310,6 @@ h5 {
   font-weight: 300;
   color: white;
   padding-top: 5%;
-  padding-bottom: 2%;
 }
 
 b {

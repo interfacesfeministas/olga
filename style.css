@@ -35,14 +35,14 @@ body-2 {
 
 body-2::-webkit-scrollbar {
   width: 0.5rem;
-  scrollbar-color: rgba(210, 0, 0, 1) rgba(210, 0, 0, 1);
+  color: rgba(210, 0, 0, 1), rgba(210, 0, 0, 1);
 }
 
 #enterContainer {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
     flex-direction: column;
     top: 0px;
     left: 0px;
@@ -58,7 +58,8 @@ body-2::-webkit-scrollbar {
   font-family: 'Karla', sans-serif;
   font-weight: 400;
   color: rgba(210, 210, 210, 1);
-  padding: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 #parallax {
@@ -226,8 +227,8 @@ img {
 }
 
 .button-form {
-  background-color: rgba(210,0,0,1);
-  color: white;
+  background-color: transparent;
+  color: rgba(210,0,0,1);
   border-color: rgba(210,0,0,1);
   font-family: 'Karla', sans-serif;
   font-weight: 500;
@@ -243,9 +244,9 @@ a .button-form{
 }
 
 .button-form:hover {
-  background-color: black;
-  color: rgba(210,0,0,1);
-  border-color: rgba(210,0,0,1);
+  background-color: transparent;
+  color: white;
+  border-color: white;
 }
 
 h1, h2, h2-1, h3, h4 {
@@ -332,11 +333,11 @@ i {
 p {
   line-height: 1.5;
   text-justify: left;
+  text-indent: 0;
   font-family: 'Karla', sans-serif;
   font-weight: 300;
   color: white;
   padding-top: 2%;
-  padding-bottom: 3%;
 }
 
 
